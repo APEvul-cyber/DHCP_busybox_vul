@@ -122,3 +122,9 @@ docker exec client-udhcpc cat /etc/resolv.conf
 - RFC 1035: Domain Names — Implementation and Specification
 - CVE-2020-7461: FreeBSD dhclient Option 119 heap overflow (different vulnerability class)
 - CVE-2024-3661: TunnelVision — DHCP Option 121 routing injection (same attack class, different option)
+
+## 9. Related Reports
+
+- **This repository**: https://github.com/APEvul-cyber/DHCP_busybox_vul
+- Same vulnerability on systemd-networkd: https://github.com/APEvul-cyber/DHCP_systemd_vul
+- Option 52 hidden injection (also in this repo): https://github.com/APEvul-cyber/DHCP_busybox_vul/tree/main/DHCPOFFER_sname_response

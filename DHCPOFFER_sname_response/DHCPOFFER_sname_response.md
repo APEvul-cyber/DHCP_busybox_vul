@@ -140,3 +140,10 @@ docker exec client-udhcpc cat /etc/resolv.conf
 - RFC 2131 §4.1: Dynamic Host Configuration Protocol — Option Overloading
 - RFC 2132 §9.3: DHCP Options — Option 52 (Option Overload)
 - CVE-2024-3661: TunnelVision — DHCP Option 121 routing injection (same attack class)
+
+## 9. Related Reports
+
+- **This repository**: https://github.com/APEvul-cyber/DHCP_busybox_vul
+- Option 52 detection gap — Snort: https://github.com/APEvul-cyber/DHCP_snort_vul
+- Option 52 detection gap — Suricata: https://github.com/APEvul-cyber/DHCP_suricata_vul
+- Option 119 search domain hijack (also in this repo): https://github.com/APEvul-cyber/DHCP_busybox_vul/tree/main/DHCPOFFER_Option_119_Domain_Search_List_response
